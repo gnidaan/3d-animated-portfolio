@@ -12,6 +12,7 @@ const Service = lazy(() => import("./components/service/Service"));
 const Portfolio = lazy(() => import("./components/portfolio/Portfolio"));
 const Contact = lazy(() => import("./components/contact/Contact"));
 
+
 const App = () => {
   return (
     <div className="container">
